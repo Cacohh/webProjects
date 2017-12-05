@@ -16,12 +16,31 @@
     background-size: contain;
 }
 
-.navbar-transparent {
+nav.navbar-transparent {
     background-color: #000000;
+    padding: 15px 0px;
+    background: rgba(0, 0, 0, 0.6);
+    border: none;
+}
+
+.navbar-brand {
+    padding: 0px;
+    padding-top: 5px;
 }
 
 .nav-link {
     color: #ffffff;
+}
+
+#logo {
+    color: #ffffff
+}
+
+#divisor {
+    width: 1px;
+    height: 15px;
+    margin: 15px 10px;
+    background: #ffffff;
 }
 
 
