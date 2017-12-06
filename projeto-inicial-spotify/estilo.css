@@ -4,6 +4,11 @@
 *
 /* ============================== layout =========================== */
 
+body {
+    background: url('imagens/capa.png'),
+                url('imagens/ruido.png'),
+                linear-gradient(50deg, #ff4169, #7c26f8);
+}
 
 /* -- Bara de navegação -- */
 
@@ -12,7 +17,6 @@
     width: 132px;
     display: block;
     background: url('imagens/spotify.svg') no-repeat;
-    border: 1px solid red;
     background-size: contain;
 }
 
@@ -21,6 +25,10 @@ nav.navbar-transparent {
     padding: 15px 0px;
     background: rgba(0, 0, 0, 0.5);
     border: none;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #9bf0e1;
 }
 
 .navbar-brand {
