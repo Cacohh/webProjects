@@ -4,10 +4,15 @@
 *
 /* ============================== layout =========================== */
 
+html, body, .capa {
+    height: 100%;
+}
 body {
     background: url('imagens/capa.png'),
                 url('imagens/ruido.png'),
                 linear-gradient(50deg, #ff4169, #7c26f8);
+    background-attachment: fixed;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 /* -- Bara de navegação -- */
@@ -50,6 +55,23 @@ nav.navbar-transparent {
     margin: 15px 10px;
     background: #ffffff;
 }
+.capa {
+    display: table;
+    width: 100%;
+}
+
+.texto-capa {
+    text-align: center;
+    color: #fff;
+    display: table-cell;
+    vertical-align: middle;
+}
 
 
 /* ==================== Tipografia ===================== */
+
+h1 {
+    font-size: 100px;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+}
