@@ -4,18 +4,20 @@
 *
 /* ============================== layout =========================== */
 
-html, body, .capa {
+html,
+body,
+.capa {
     height: 100%;
 }
+
 body {
-    background: url('imagens/capa.png'),
-                url('imagens/ruido.png'),
-                linear-gradient(50deg, #ff4169, #7c26f8);
+    background: url('imagens/capa.png'), url('imagens/ruido.png'), linear-gradient(50deg, #ff4169, #7c26f8);
     background-attachment: fixed;
     font-family: Helvetica, Arial, sans-serif;
 }
 
-/* -- Bara de navegação -- */
+
+/* -- Barra de navegação -- */
 
 .img-logo {
     height: 40px;
@@ -55,6 +57,7 @@ nav.navbar-transparent {
     margin: 15px 10px;
     background: #ffffff;
 }
+
 .capa {
     display: table;
     width: 100%;
@@ -68,10 +71,42 @@ nav.navbar-transparent {
 }
 
 
+/* -- Barra de navegação -- */
+
+.btn-custom {
+    color: #ffffff;
+    border-radius: 500px;
+    padding: 10px 35px;
+    text-transform: uppercase;
+    margin: 0px 15px;
+    transition-property: background-color, color;
+    transition-duration: 0.4s;
+}
+
+.btn-roxo {
+    background: #7c25f8;
+}
+
+.btn-roxo:hover {
+    background-color: #6207e5;
+}
+
+.btn-branco {
+    background: transparent;
+    border: 2px solid #ffffff;
+}
+
+.btn-branco:hover {
+    background: #ffffff;
+    color: #000000;
+}
+
+
 /* ==================== Tipografia ===================== */
 
 h1 {
     font-size: 100px;
     font-weight: 900;
     letter-spacing: -0.05em;
+    margin-bottom: 50px;
 }
